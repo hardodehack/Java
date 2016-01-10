@@ -1,0 +1,29 @@
+class common
+{	
+	static int c = 44;
+	int b = 45;
+	void nothing(){
+		int f = 77;
+		System.out.println("Just Nothing Never");}
+}
+
+class ac extends common
+{
+	void Everything(){System.out.println("Just invoking ac1"+b);}
+}
+
+class tv extends ac
+{
+	void tv1(){System.out.println("TV1"+b);}
+}
+
+class mainclass1 
+{
+	public static void main(String[] args) 
+	{
+		ac obj = new ac();
+		tv obj1 = new tv();
+		System.out.println("b value "+obj.b+"jhghvfhdb"+obj.c);
+		obj.nothing();
+	}
+}

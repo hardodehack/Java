@@ -1,0 +1,31 @@
+package JavaBeanClass;
+
+public class mainclass 
+{
+	
+	public static void main(String[] args) {
+		
+		//Method 2 :- practice.home.package1.javabeanclass obj = new practice.home.package1.javabeanclass(12,12.22,true);
+		
+		
+		javabeanclass obj = new javabeanclass(12,12.22,true);
+		
+		double c1 = obj.getH();
+		int c2 = obj.getI();
+		boolean c3 = obj.isB();
+		System.out.println(c1+"\n"+c2+"\n"+c3);
+		
+		obj.setB(false);
+		obj.setH(45.55);
+		obj.setI(9999);
+		
+		double c21 = obj.getH();
+		int c22 = obj.getI();
+		boolean c23 = obj.isB();
+		
+		System.out.println(c21+"\n"+c22+"\n"+c23);
+		
+	}
+
+
+}
