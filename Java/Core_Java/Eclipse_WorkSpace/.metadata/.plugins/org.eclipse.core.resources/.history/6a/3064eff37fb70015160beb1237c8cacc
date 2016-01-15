@@ -1,0 +1,5 @@
+package userClassForException;
+
+public class Voting {
+
+}

@@ -1,0 +1,76 @@
+
+<html>
+
+<head>
+	<title>Expence Manager</title>
+	<style>
+			#mainDiv{
+                                    margin:0;
+                                    padding:0;
+                                    width:100%;
+                                    height:100%;
+			}
+			.hh1
+				{
+					font-size:20px;
+					padding-top:3px;
+					padding-bottom:2px;
+				}
+			.t1
+				{
+                                        margin-top:200px;
+					margin-left:500px;
+					margin-right:500px;
+				}
+			.t2
+				{
+                                        padding-top:30px;
+					background:cyan;
+					border:2px solid black;
+					border-color:purple;
+					box-shadow:1px 1px 20px green;
+					border-radius:1px;
+					padding:20px;
+				}
+				
+                            
+				
+	</style>
+			
+</head>
+
+<body>
+	<div id ="mainDiv">
+	<div class="hh1">
+		<marquee><font color="green">Welcome to Expence Manager</font></marquee>
+	</div>
+
+	<div class="t1">
+	<div class="t2">
+	<form method="post" action="loginaction.php">
+		<table>
+			<tr>
+				<td><label><font color="black">Username :</font></label></td>
+				<td></td>
+				<td><input placeholder="enter your username here" type="text" name="uname"/></td>
+			</tr>
+			<tr>
+				<td><label><font color="black">Password  :</font></label></td>
+				<td></td>
+				<td><input type="password" placeholder="enter your password here" name="pass"/>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				
+				<td><button type="submit">Login</button>
+				<button type="reset">Reset</button></td></tr>
+                        </tr>
+			</table>
+			</div>
+	</form>
+	</div>
+	
+</body>
+</html>
+

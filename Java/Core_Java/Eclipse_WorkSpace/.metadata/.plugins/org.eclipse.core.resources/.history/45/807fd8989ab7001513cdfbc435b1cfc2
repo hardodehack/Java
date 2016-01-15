@@ -1,0 +1,24 @@
+package threading;
+import java.util.Scanner;
+public class Sample1 {
+	
+	public void printing1()
+	{
+		for(int i=0;i<=5;i++)
+		{
+			System.out.println("Printing 1 to 5");
+			System.out.println("i = "+i);
+		}
+	}
+	
+	public void printing2()
+	{
+		for(int i=77;i<83;i++)
+		{
+			System.out.println("Printing 77 to 82");
+			System.out.println("i = "+i);
+		}
+	}
+}
+	
+

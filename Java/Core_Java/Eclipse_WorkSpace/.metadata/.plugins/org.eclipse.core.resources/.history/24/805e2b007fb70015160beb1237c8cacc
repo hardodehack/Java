@@ -1,0 +1,24 @@
+package singlatonClass;
+
+public class SinglatonClass {
+
+	private static int cou=0;
+	private static SinglatonClass ref = null;
+
+	private SinglatonClass()
+	{
+		System.out.println("creating First SinglatonClass class instance");
+		cou++;
+	}
+
+	public static SinglatonClass getInstance()
+	{
+		if (cou==0)
+		{
+			ref = new SinglatonClass();
+		}
+	return ref;
+
+	}
+}
+

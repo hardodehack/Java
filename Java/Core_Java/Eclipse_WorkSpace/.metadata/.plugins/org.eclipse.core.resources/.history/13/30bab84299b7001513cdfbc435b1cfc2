@@ -1,0 +1,28 @@
+package threading;
+public class Sample1 {
+	
+	int a=0,b=0,res=0;
+	char d;
+	public Sample1(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public void calculator()
+	{
+		switch(d)
+		{
+		case 'A':
+			res=a+b;
+			System.out.println("Addition is "+res);
+			break;
+		case 'B':
+			res=a-b;
+			System.out.println("Substraction is "+res);
+		default:
+			System.out.println("Wrong Choice");
+			}	
+	}
+}
+	
+
