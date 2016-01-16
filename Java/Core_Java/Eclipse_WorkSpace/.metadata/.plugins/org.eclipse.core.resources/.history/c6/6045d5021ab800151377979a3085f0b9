@@ -1,0 +1,17 @@
+package threading2;
+
+public class Sqquence1 extends Thread {
+
+	public void run()
+	{
+		System.out.println("Using 2nd Method for Threads\n By inheriting Thread class");
+		for(int i=999;i<=1008;i++)
+		{
+			System.out.println(i);
+		}
+	}
+	
+	
+	
+	
+}

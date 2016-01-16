@@ -1,0 +1,38 @@
+class common22
+{	
+	common22(int arg)
+	{
+		i = arg;
+	}
+	int i;
+}
+
+class ac2 extends common22
+{
+	ac2(double arg)
+	{
+		super(7777);
+		d = arg;
+	}
+	double d;
+}
+
+class tv2 extends ac2
+{
+	tv2(boolean arg)
+	{
+		super(7.7);
+		b = arg;
+	}
+	boolean b;
+}
+
+class mainclass2 
+{
+	public static void main(String[] args) 
+	{
+		tv2 obj = new tv2(true);
+		System.out.println("D value : "+obj.d);
+		System.out.println("I value : "+obj.i);
+	}
+}

@@ -1,0 +1,27 @@
+class sample
+{
+	int i = 7;
+	double d = 77.77;
+	void test()
+	{
+		System.out.println("Running Test Methods");
+	}
+}
+
+class demo
+{
+	demo(sample x)
+	{
+		System.out.println("Running demo Constructor");
+	}
+}
+class mainclass7 
+{
+	public static void main(String[] args) 
+	{
+		sample s1 = new sample();
+		demo d1 = new demo(s1);
+		System.out.println(s1.i+"\n"+s1.d);
+		s1.test();
+	}
+}
